@@ -98,6 +98,8 @@ MidiHandler Midi_none;
 
 #endif
 
+#include "midi_mt32.h"
+
 static struct {
 	Bitu status;
 	Bitu cmd_len;
